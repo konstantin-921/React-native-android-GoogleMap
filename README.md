@@ -1,6 +1,6 @@
 # Project Title
 
-This application is a test implementation for demonstrating the work of Google Maps Api for React Native.This implementation works only for android.
+This application is a test implementation for demonstrating the work of Google Maps Api for React Native. This implementation works only for android.
 
 ## Installing
 
