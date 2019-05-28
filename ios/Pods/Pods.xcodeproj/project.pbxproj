@@ -1,0 +1,1049 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		241DBD434182BC5099F5186E5220D2CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */; };
+		3F74B74FC1844CC4251E067B838DBAF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */; };
+		47DE2C9568883FD9D26DB4829EE498B8 /* Pods-Lightdrop-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F75E9F3E11741EC403F88CBC1CCA76A3 /* Pods-Lightdrop-tvOS-dummy.m */; };
+		49AE7447B2D21FA7EC980284AD8DE05B /* Pods-LightdropTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3028EDBD06FCF3097A9A79B8DC237F7F /* Pods-LightdropTests-dummy.m */; };
+		5BDF59B127A1A5A5AE45F9BE67A4FF25 /* Pods-Lightdrop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC000BECEE915CC8C96CD8047DCB4DC7 /* Pods-Lightdrop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		925B2CE486F7B525A1B0CFADC8D72EAE /* Pods-Lightdrop-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D7D90D5FC5E48C693EB1055E9CD315 /* Pods-Lightdrop-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C042B043D55B1829DFAE425ED9AD1BF /* Pods-LightdropTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B548AFB5DCEC791D37E5BA41DD06EBFE /* Pods-LightdropTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A22C393B947BD1D60A1CA07D106DA646 /* Pods-Lightdrop-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8685B9A735439AC192E96A95EBFBEE /* Pods-Lightdrop-tvOSTests-dummy.m */; };
+		B69DA212BC8FC5FC0158F142037FAB94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */; };
+		CF7C5F02FE66DA6E1113AEC0AFD21E2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */; };
+		DC079F912DE4AF9BFD4F008A39367C80 /* Pods-Lightdrop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B8E8E5CA9387D8B22448ED353909FF /* Pods-Lightdrop-dummy.m */; };
+		DDF5F156A728DFEEF9C15B937D164352 /* Pods-Lightdrop-tvOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B3DD4781EC5DF45261F56171159570 /* Pods-Lightdrop-tvOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88BCC20871AB2B17793366971E226B16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		B567FBF16A67E8E0CE1D96910294BBC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74982BA85F32284FA9327FD24DA80241;
+			remoteInfo = "Pods-Lightdrop";
+		};
+		DF767B08397542D40CBF0AED44BE04DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74982BA85F32284FA9327FD24DA80241;
+			remoteInfo = "Pods-Lightdrop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0685E3274BB45BDDA3D7CE9B6EFF4640 /* Pods_Lightdrop_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Lightdrop_tvOSTests.framework; path = "Pods-Lightdrop-tvOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		092F0575C55F15CB527DEAD0F3F3F9D7 /* Pods-Lightdrop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Lightdrop.modulemap"; sourceTree = "<group>"; };
+		0A36795A682B000FFC78E9542E52F0AA /* Pods-Lightdrop-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lightdrop-resources.sh"; sourceTree = "<group>"; };
+		0EBA2F448A9E34AB53EE6373A8CD8D8C /* Pods-Lightdrop-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lightdrop-acknowledgements.plist"; sourceTree = "<group>"; };
+		1585DF74E12E2B3D5493B9161C2131E6 /* Pods-Lightdrop-tvOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lightdrop-tvOSTests-Info.plist"; sourceTree = "<group>"; };
+		159C855FD60CDDEB973810ECF8746DA0 /* Pods-Lightdrop-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lightdrop-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		1733FB8473E1E9A38670F132F9B6ECC9 /* Pods-Lightdrop-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lightdrop-Info.plist"; sourceTree = "<group>"; };
+		1B4F8FC636C2FA9ED5DCDF89DDC0A3C9 /* Pods-LightdropTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LightdropTests.modulemap"; sourceTree = "<group>"; };
+		2327115DD85AF99E585A0609E69DCB8F /* Pods-Lightdrop-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lightdrop-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		29B8E8E5CA9387D8B22448ED353909FF /* Pods-Lightdrop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lightdrop-dummy.m"; sourceTree = "<group>"; };
+		2D7518BD466D05A77243D575F2E8EDF8 /* Pods-LightdropTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LightdropTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3028EDBD06FCF3097A9A79B8DC237F7F /* Pods-LightdropTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LightdropTests-dummy.m"; sourceTree = "<group>"; };
+		3AF56F4F7F15F711C978C8E342B63F0B /* Pods-LightdropTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LightdropTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		41700BF827AE25FA98BD99D479FF3058 /* Pods-LightdropTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LightdropTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		44F17A4D0EE751158EB99E4E8EF9D015 /* Pods-Lightdrop-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lightdrop-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		49B3DD4781EC5DF45261F56171159570 /* Pods-Lightdrop-tvOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lightdrop-tvOSTests-umbrella.h"; sourceTree = "<group>"; };
+		4C978840974340DBBFCFD28B69305FA6 /* Pods-Lightdrop-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lightdrop-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		521C05AB6AE7B9910A233B63B560FF70 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		551F63664537853F32071E13FE4CC4FF /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		57B6627A5EB2030B337964AF74E65BA8 /* Pods-Lightdrop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lightdrop.debug.xcconfig"; sourceTree = "<group>"; };
+		5BEF52437C1E4AB431C3FBA86771C36E /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		6182D2910F324343A26646D1D8050A00 /* Pods-Lightdrop-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lightdrop-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		7F60BC1E5A7799C934916222F6D4DA73 /* Pods-Lightdrop-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Lightdrop-tvOS.modulemap"; sourceTree = "<group>"; };
+		80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		88BEC80F861ED3D528C7CF460812EE0D /* Pods-Lightdrop-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lightdrop-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8C2B5D150CEE6BBB83CC0A67F1F8E93A /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		96E9C277DD5DBFC5FB7AD60611A0DB60 /* Pods-Lightdrop-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lightdrop-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9EABFB65098327DAC7F955FF6DB38A5 /* Pods_Lightdrop_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Lightdrop_tvOS.framework; path = "Pods-Lightdrop-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D7D90D5FC5E48C693EB1055E9CD315 /* Pods-Lightdrop-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lightdrop-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		B548AFB5DCEC791D37E5BA41DD06EBFE /* Pods-LightdropTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LightdropTests-umbrella.h"; sourceTree = "<group>"; };
+		B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BD2A6F9E21672044B3C6D165FEEFA731 /* Pods_LightdropTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LightdropTests.framework; path = "Pods-LightdropTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6745E06A37BBD5D0D0D029F6357FD3 /* Pods-Lightdrop-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lightdrop-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE936CE037C3558C790475F030DADDDE /* Pods_Lightdrop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Lightdrop.framework; path = "Pods-Lightdrop.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6800D4F09747DAD1BE7366CCA7BAAA5 /* Pods-LightdropTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LightdropTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB29A584CDB62E44900883979ADB2234 /* Pods-Lightdrop-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lightdrop-tvOS-Info.plist"; sourceTree = "<group>"; };
+		CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.xcconfig; sourceTree = "<group>"; };
+		D17CF8AB0DE4A709E898D34CCD6A3CD2 /* Pods-Lightdrop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lightdrop.release.xcconfig"; sourceTree = "<group>"; };
+		DD9967DBE09A80B2C5FBF4D52E0BB1DE /* Pods-Lightdrop-tvOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Lightdrop-tvOSTests.modulemap"; sourceTree = "<group>"; };
+		E52E820B12FB1F485FCC5E560352D2D4 /* Pods-Lightdrop-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lightdrop-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA8685B9A735439AC192E96A95EBFBEE /* Pods-Lightdrop-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lightdrop-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		EC000BECEE915CC8C96CD8047DCB4DC7 /* Pods-Lightdrop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lightdrop-umbrella.h"; sourceTree = "<group>"; };
+		F75E9F3E11741EC403F88CBC1CCA76A3 /* Pods-Lightdrop-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lightdrop-tvOS-dummy.m"; sourceTree = "<group>"; };
+		FBDC38DA133722F7619E359A5798947E /* Pods-LightdropTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LightdropTests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041373F68E9274799B48DB9ECE6B0849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241DBD434182BC5099F5186E5220D2CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD0E062E9AB569F7D1410A843544CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7C5F02FE66DA6E1113AEC0AFD21E2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F21556E7B783A7DA451550FA8642F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F74B74FC1844CC4251E067B838DBAF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7024664228E1AA43097DCD4A283CD95E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69DA212BC8FC5FC0158F142037FAB94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C4EB33A076BB7654667F327222F2A96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		570B5607B5C57B64A2CF61EE8148A547 /* Pods-Lightdrop-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F60BC1E5A7799C934916222F6D4DA73 /* Pods-Lightdrop-tvOS.modulemap */,
+				BD6745E06A37BBD5D0D0D029F6357FD3 /* Pods-Lightdrop-tvOS-acknowledgements.markdown */,
+				96E9C277DD5DBFC5FB7AD60611A0DB60 /* Pods-Lightdrop-tvOS-acknowledgements.plist */,
+				F75E9F3E11741EC403F88CBC1CCA76A3 /* Pods-Lightdrop-tvOS-dummy.m */,
+				CB29A584CDB62E44900883979ADB2234 /* Pods-Lightdrop-tvOS-Info.plist */,
+				B3D7D90D5FC5E48C693EB1055E9CD315 /* Pods-Lightdrop-tvOS-umbrella.h */,
+				88BEC80F861ED3D528C7CF460812EE0D /* Pods-Lightdrop-tvOS.debug.xcconfig */,
+				6182D2910F324343A26646D1D8050A00 /* Pods-Lightdrop-tvOS.release.xcconfig */,
+			);
+			name = "Pods-Lightdrop-tvOS";
+			path = "Target Support Files/Pods-Lightdrop-tvOS";
+			sourceTree = "<group>";
+		};
+		5EFB2F6219210369922221CAE19D1591 /* Pods-LightdropTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B4F8FC636C2FA9ED5DCDF89DDC0A3C9 /* Pods-LightdropTests.modulemap */,
+				3AF56F4F7F15F711C978C8E342B63F0B /* Pods-LightdropTests-acknowledgements.markdown */,
+				41700BF827AE25FA98BD99D479FF3058 /* Pods-LightdropTests-acknowledgements.plist */,
+				3028EDBD06FCF3097A9A79B8DC237F7F /* Pods-LightdropTests-dummy.m */,
+				FBDC38DA133722F7619E359A5798947E /* Pods-LightdropTests-Info.plist */,
+				B548AFB5DCEC791D37E5BA41DD06EBFE /* Pods-LightdropTests-umbrella.h */,
+				2D7518BD466D05A77243D575F2E8EDF8 /* Pods-LightdropTests.debug.xcconfig */,
+				C6800D4F09747DAD1BE7366CCA7BAAA5 /* Pods-LightdropTests.release.xcconfig */,
+			);
+			name = "Pods-LightdropTests";
+			path = "Target Support Files/Pods-LightdropTests";
+			sourceTree = "<group>";
+		};
+		635C391EBEDEECEBED7C587C09F80C29 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				7A2FE3E30CF6F7F1C609C86668A4411D /* Frameworks */,
+				CB4FFE30125DB944A69FABB13465CBF9 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		6DC984D737DB841E41A9D175E8069AED /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E31401A986F325F1E4863EC2F7E087C0 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		71BF10D9671F60B91D333968CED34958 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		7A2FE3E30CF6F7F1C609C86668A4411D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BEF52437C1E4AB431C3FBA86771C36E /* GoogleMaps.framework */,
+				8C2B5D150CEE6BBB83CC0A67F1F8E93A /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8910DE18F4068EE7F2F8E36E5101A369 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A88CC71D6E55F0202A23277A509BCA0 /* iOS */,
+				71BF10D9671F60B91D333968CED34958 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A91C5F53969F3A1B1C564283E1840EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE936CE037C3558C790475F030DADDDE /* Pods_Lightdrop.framework */,
+				A9EABFB65098327DAC7F955FF6DB38A5 /* Pods_Lightdrop_tvOS.framework */,
+				0685E3274BB45BDDA3D7CE9B6EFF4640 /* Pods_Lightdrop_tvOSTests.framework */,
+				BD2A6F9E21672044B3C6D165FEEFA731 /* Pods_LightdropTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A88CC71D6E55F0202A23277A509BCA0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A986C7A8EE7CBAFBD48E8EC05A905D1E /* Pods-Lightdrop */ = {
+			isa = PBXGroup;
+			children = (
+				092F0575C55F15CB527DEAD0F3F3F9D7 /* Pods-Lightdrop.modulemap */,
+				E52E820B12FB1F485FCC5E560352D2D4 /* Pods-Lightdrop-acknowledgements.markdown */,
+				0EBA2F448A9E34AB53EE6373A8CD8D8C /* Pods-Lightdrop-acknowledgements.plist */,
+				29B8E8E5CA9387D8B22448ED353909FF /* Pods-Lightdrop-dummy.m */,
+				1733FB8473E1E9A38670F132F9B6ECC9 /* Pods-Lightdrop-Info.plist */,
+				0A36795A682B000FFC78E9542E52F0AA /* Pods-Lightdrop-resources.sh */,
+				EC000BECEE915CC8C96CD8047DCB4DC7 /* Pods-Lightdrop-umbrella.h */,
+				57B6627A5EB2030B337964AF74E65BA8 /* Pods-Lightdrop.debug.xcconfig */,
+				D17CF8AB0DE4A709E898D34CCD6A3CD2 /* Pods-Lightdrop.release.xcconfig */,
+			);
+			name = "Pods-Lightdrop";
+			path = "Target Support Files/Pods-Lightdrop";
+			sourceTree = "<group>";
+		};
+		AEB2EB54AE51001ACA52CF2A5CD80017 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				6DC984D737DB841E41A9D175E8069AED /* Base */,
+				635C391EBEDEECEBED7C587C09F80C29 /* Maps */,
+				2C4EB33A076BB7654667F327222F2A96 /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		B7EFC22ADD259CB053703C2F59A164D8 /* Pods-Lightdrop-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD9967DBE09A80B2C5FBF4D52E0BB1DE /* Pods-Lightdrop-tvOSTests.modulemap */,
+				4C978840974340DBBFCFD28B69305FA6 /* Pods-Lightdrop-tvOSTests-acknowledgements.markdown */,
+				44F17A4D0EE751158EB99E4E8EF9D015 /* Pods-Lightdrop-tvOSTests-acknowledgements.plist */,
+				EA8685B9A735439AC192E96A95EBFBEE /* Pods-Lightdrop-tvOSTests-dummy.m */,
+				1585DF74E12E2B3D5493B9161C2131E6 /* Pods-Lightdrop-tvOSTests-Info.plist */,
+				49B3DD4781EC5DF45261F56171159570 /* Pods-Lightdrop-tvOSTests-umbrella.h */,
+				2327115DD85AF99E585A0609E69DCB8F /* Pods-Lightdrop-tvOSTests.debug.xcconfig */,
+				159C855FD60CDDEB973810ECF8746DA0 /* Pods-Lightdrop-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-Lightdrop-tvOSTests";
+			path = "Target Support Files/Pods-Lightdrop-tvOSTests";
+			sourceTree = "<group>";
+		};
+		CB4FFE30125DB944A69FABB13465CBF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				521C05AB6AE7B9910A233B63B560FF70 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8910DE18F4068EE7F2F8E36E5101A369 /* Frameworks */,
+				DF3634087891871FA7B65CC4A8E6DB71 /* Pods */,
+				8A91C5F53969F3A1B1C564283E1840EF /* Products */,
+				DED8C074B8BE33B1878753155D126115 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DED8C074B8BE33B1878753155D126115 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A986C7A8EE7CBAFBD48E8EC05A905D1E /* Pods-Lightdrop */,
+				570B5607B5C57B64A2CF61EE8148A547 /* Pods-Lightdrop-tvOS */,
+				B7EFC22ADD259CB053703C2F59A164D8 /* Pods-Lightdrop-tvOSTests */,
+				5EFB2F6219210369922221CAE19D1591 /* Pods-LightdropTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DF3634087891871FA7B65CC4A8E6DB71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEB2EB54AE51001ACA52CF2A5CD80017 /* GoogleMaps */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E31401A986F325F1E4863EC2F7E087C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				551F63664537853F32071E13FE4CC4FF /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08BFB81E5FDA5577FE7C7E39848A168D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925B2CE486F7B525A1B0CFADC8D72EAE /* Pods-Lightdrop-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4165C3FBAA42B181F628908EB3725064 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C042B043D55B1829DFAE425ED9AD1BF /* Pods-LightdropTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FFA8ABDCBCCAA7F043EBC93BE75C1E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BDF59B127A1A5A5AE45F9BE67A4FF25 /* Pods-Lightdrop-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B05B61A8B58F279CE1F5F3C0C0C9C5D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF5F156A728DFEEF9C15B937D164352 /* Pods-Lightdrop-tvOSTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		354F9F5C5D028AB00BF178D2067CAAB4 /* Pods-LightdropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F578774AD6283AAE13D3364978337674 /* Build configuration list for PBXNativeTarget "Pods-LightdropTests" */;
+			buildPhases = (
+				4165C3FBAA42B181F628908EB3725064 /* Headers */,
+				BB2BC46DAEFCF83588C6C9566A668DC6 /* Sources */,
+				041373F68E9274799B48DB9ECE6B0849 /* Frameworks */,
+				AEFFB4F80C3FECCD4D976D50C771550F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06027E4EE57BED62BABE6FFF9C1A7F22 /* PBXTargetDependency */,
+			);
+			name = "Pods-LightdropTests";
+			productName = "Pods-LightdropTests";
+			productReference = BD2A6F9E21672044B3C6D165FEEFA731 /* Pods_LightdropTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C368FED1343D16331E32AC24CF28F17 /* Pods-Lightdrop-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 950BC406228155F3D7A6D4067AC52B20 /* Build configuration list for PBXNativeTarget "Pods-Lightdrop-tvOS" */;
+			buildPhases = (
+				08BFB81E5FDA5577FE7C7E39848A168D /* Headers */,
+				61728AD0E1D5747CF1DD2BC417A9AB96 /* Sources */,
+				0CD0E062E9AB569F7D1410A843544CAC /* Frameworks */,
+				91DBBB9D0EAAE8AF6326431830045D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Lightdrop-tvOS";
+			productName = "Pods-Lightdrop-tvOS";
+			productReference = A9EABFB65098327DAC7F955FF6DB38A5 /* Pods_Lightdrop_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		74982BA85F32284FA9327FD24DA80241 /* Pods-Lightdrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F996972C39260810B6924D05596D1D3 /* Build configuration list for PBXNativeTarget "Pods-Lightdrop" */;
+			buildPhases = (
+				7FFA8ABDCBCCAA7F043EBC93BE75C1E3 /* Headers */,
+				0D64B48F28A76A5763D06F2C38FD26C7 /* Sources */,
+				6F21556E7B783A7DA451550FA8642F11 /* Frameworks */,
+				4E62FE65555EBE13041B6C3A642B82BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				580601440D5B8E7973BD1F776F95C408 /* PBXTargetDependency */,
+			);
+			name = "Pods-Lightdrop";
+			productName = "Pods-Lightdrop";
+			productReference = BE936CE037C3558C790475F030DADDDE /* Pods_Lightdrop.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF2C0C8EE09771DA0E0A6A79469EBDD5 /* Pods-Lightdrop-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B1CB7F6F419D881019761AA0F05CBE /* Build configuration list for PBXNativeTarget "Pods-Lightdrop-tvOSTests" */;
+			buildPhases = (
+				B05B61A8B58F279CE1F5F3C0C0C9C5D1 /* Headers */,
+				D29F0131220B50CC4639F42B5ECA2F9C /* Sources */,
+				7024664228E1AA43097DCD4A283CD95E /* Frameworks */,
+				4F89424598EBDF3A0644DB22F420C1B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E02706ED2BD5E3B114E682FCF4AD9DF /* PBXTargetDependency */,
+			);
+			name = "Pods-Lightdrop-tvOSTests";
+			productName = "Pods-Lightdrop-tvOSTests";
+			productReference = 0685E3274BB45BDDA3D7CE9B6EFF4640 /* Pods_Lightdrop_tvOSTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8A91C5F53969F3A1B1C564283E1840EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				74982BA85F32284FA9327FD24DA80241 /* Pods-Lightdrop */,
+				3C368FED1343D16331E32AC24CF28F17 /* Pods-Lightdrop-tvOS */,
+				EF2C0C8EE09771DA0E0A6A79469EBDD5 /* Pods-Lightdrop-tvOSTests */,
+				354F9F5C5D028AB00BF178D2067CAAB4 /* Pods-LightdropTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E62FE65555EBE13041B6C3A642B82BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F89424598EBDF3A0644DB22F420C1B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DBBB9D0EAAE8AF6326431830045D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFFB4F80C3FECCD4D976D50C771550F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D64B48F28A76A5763D06F2C38FD26C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC079F912DE4AF9BFD4F008A39367C80 /* Pods-Lightdrop-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61728AD0E1D5747CF1DD2BC417A9AB96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47DE2C9568883FD9D26DB4829EE498B8 /* Pods-Lightdrop-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB2BC46DAEFCF83588C6C9566A668DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AE7447B2D21FA7EC980284AD8DE05B /* Pods-LightdropTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29F0131220B50CC4639F42B5ECA2F9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22C393B947BD1D60A1CA07D106DA646 /* Pods-Lightdrop-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06027E4EE57BED62BABE6FFF9C1A7F22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Lightdrop";
+			target = 74982BA85F32284FA9327FD24DA80241 /* Pods-Lightdrop */;
+			targetProxy = DF767B08397542D40CBF0AED44BE04DB /* PBXContainerItemProxy */;
+		};
+		4E02706ED2BD5E3B114E682FCF4AD9DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Lightdrop";
+			target = 74982BA85F32284FA9327FD24DA80241 /* Pods-Lightdrop */;
+			targetProxy = B567FBF16A67E8E0CE1D96910294BBC2 /* PBXContainerItemProxy */;
+		};
+		580601440D5B8E7973BD1F776F95C408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 88BCC20871AB2B17793366971E226B16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4AA46832D8A16AA4E4811383B204D2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FE32B5DB8878CED3F9CC3F3EE4A4E15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57B6627A5EB2030B337964AF74E65BA8 /* Pods-Lightdrop.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lightdrop/Pods-Lightdrop-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lightdrop/Pods-Lightdrop.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		617A8A717C46B5505A1A43AE59797D7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D7518BD466D05A77243D575F2E8EDF8 /* Pods-LightdropTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LightdropTests/Pods-LightdropTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LightdropTests/Pods-LightdropTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68F07807C8D62F2D76C744A41F3D874D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		6A9638EA06B83446F8C65F73A684C501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D17CF8AB0DE4A709E898D34CCD6A3CD2 /* Pods-Lightdrop.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lightdrop/Pods-Lightdrop-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lightdrop/Pods-Lightdrop.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F183A7A2B68BA62834A8BC77317771F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6182D2910F324343A26646D1D8050A00 /* Pods-Lightdrop-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lightdrop-tvOS/Pods-Lightdrop-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lightdrop-tvOS/Pods-Lightdrop-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9FE5D495E9BE06AF68EAAD12469EB8B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6800D4F09747DAD1BE7366CCA7BAAA5 /* Pods-LightdropTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LightdropTests/Pods-LightdropTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LightdropTests/Pods-LightdropTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB7032EF58E1718645BA34AE6A5B087D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 159C855FD60CDDEB973810ECF8746DA0 /* Pods-Lightdrop-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lightdrop-tvOSTests/Pods-Lightdrop-tvOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lightdrop-tvOSTests/Pods-Lightdrop-tvOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7565AEA7FCD8F66CAF546DC5AF1404F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0008749F65B05177801A1B72F2F1EC /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA6D3A7F49DD9638A2EFBECA8CD944A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88BEC80F861ED3D528C7CF460812EE0D /* Pods-Lightdrop-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lightdrop-tvOS/Pods-Lightdrop-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lightdrop-tvOS/Pods-Lightdrop-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CAA1D0F0830E5AD14B4CB1ACAF207007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2327115DD85AF99E585A0609E69DCB8F /* Pods-Lightdrop-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Lightdrop-tvOSTests/Pods-Lightdrop-tvOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lightdrop-tvOSTests/Pods-Lightdrop-tvOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1ED6DABFEFD9C54EE38EDA3D2F7092C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA46832D8A16AA4E4811383B204D2A4 /* Debug */,
+				C7565AEA7FCD8F66CAF546DC5AF1404F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1ED6DABFEFD9C54EE38EDA3D2F7092C /* Debug */,
+				68F07807C8D62F2D76C744A41F3D874D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F996972C39260810B6924D05596D1D3 /* Build configuration list for PBXNativeTarget "Pods-Lightdrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE32B5DB8878CED3F9CC3F3EE4A4E15 /* Debug */,
+				6A9638EA06B83446F8C65F73A684C501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		950BC406228155F3D7A6D4067AC52B20 /* Build configuration list for PBXNativeTarget "Pods-Lightdrop-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6D3A7F49DD9638A2EFBECA8CD944A3 /* Debug */,
+				9F183A7A2B68BA62834A8BC77317771F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B1CB7F6F419D881019761AA0F05CBE /* Build configuration list for PBXNativeTarget "Pods-Lightdrop-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA1D0F0830E5AD14B4CB1ACAF207007 /* Debug */,
+				BB7032EF58E1718645BA34AE6A5B087D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F578774AD6283AAE13D3364978337674 /* Build configuration list for PBXNativeTarget "Pods-LightdropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				617A8A717C46B5505A1A43AE59797D7D /* Debug */,
+				9FE5D495E9BE06AF68EAAD12469EB8B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

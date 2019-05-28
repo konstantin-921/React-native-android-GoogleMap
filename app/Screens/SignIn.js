@@ -6,7 +6,7 @@ class SignInScreen extends React.PureComponent {
   render() {
     return (
       <View style={styles.container}>
-        <Text>SighIn</Text>
+        <Text>Sigh In</Text>
       </View>
     )
   }

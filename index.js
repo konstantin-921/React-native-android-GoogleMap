@@ -3,9 +3,9 @@
  */
 
 import { Navigation } from "react-native-navigation"
-import LandingScreen from './app/Screens/Landing'
-import SignInScreen from './app/Screens/SignIn'
-import MapScreen from './app/Screens/MapScreen'
+import LandingScreen from './app/screens/Landing'
+import SignInScreen from './app/screens/SignIn'
+import MapScreen from './app/screens/MapScreen'
 
 Navigation.registerComponent(`LandingScreen`, () => LandingScreen)
 Navigation.registerComponent(`SignInScreen`, () => SignInScreen)

@@ -1,12 +1,11 @@
-import React from 'react';
-import { View, StyleSheet, Text } from 'react-native';
-import MapView from 'react-native-maps';
+import React from 'react'
+import { View, StyleSheet, Text, Linking } from 'react-native'
+import MapView, { PROVIDER_GOOGLE } from 'react-native-maps'
+import getCurrentPosition from '../lib/getCurrentPosition'
+
+const initialRegion = getCurrentPosition()
 
 const usersMap = props => {
-  //console.log('====================================');
-  //console.log(props);
-  //console.log('====================================');
-
   const userMarkers = props.userPlaces.map((place, index) => {
     return (
       <MapView.Marker coordinate={place} key={place.distance}>
@@ -17,17 +16,13 @@ const usersMap = props => {
         </MapView.Callout>
       </MapView.Marker>
     ) 
-  });
+  })
 
   return (
     <View style={styles.mapContainer}>
       <MapView
-        initialRegion={{
-          latitude: 47.23617,
-          longitude: 38.89688,
-          latitudeDelta: 0.0922,
-          longitudeDelta: 0.0421,
-        }}
+        provider={PROVIDER_GOOGLE}
+        initialRegion={initialRegion}
         style={styles.map}
         region={props.newLocation}
       >
@@ -49,4 +44,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default usersMap;
+export default usersMap

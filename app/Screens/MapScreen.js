@@ -84,14 +84,8 @@ class MapScreen extends React.PureComponent {
 
   render() {
     const location = this.getLocation();
-    //const distance = this.getDistance();
     const arrayWithDistance = this.calculateDistance();
     const allPlaces = this.state.userLocation ? arrayWithDistance.concat(this.state.userLocation) : [];
-    //console.log('====================================');
-    //console.log("allPlaces", allPlaces);
-    //console.log("this.state.userPlaces", this.state.userPlaces);
-    //console.log("distance", distance);
-    //console.log('====================================');
     return (
       <View style={styles.container}>
         <View style={{ marginBottom: 20 }}>
