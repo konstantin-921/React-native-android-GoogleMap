@@ -24,11 +24,7 @@ Creating .env file
 ------------------
 
 There is a **.env.example** file in the project root. You need to rename it to **.env** and enter your data into all environment variables.
-
-Custom setting
---------------
-
-Specify your own Google Maps API Key in .env file for the field **GOOGLE_API_KEY**. [Guide here](https://developers.google.com/maps/documentation/javascript/get-api-key)
+* Specify your own Google Maps API Key in .env file for the field GOOGLE_API_KEY. [Guide here](https://developers.google.com/maps/documentation/javascript/get-api-key)
 
 Deployment
 ----------
