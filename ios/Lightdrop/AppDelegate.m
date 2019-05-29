@@ -6,6 +6,7 @@
  */
 
 #import "AppDelegate.h"
+#import "ReactNativeConfig.h"
 
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
@@ -16,8 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  NSString *googleKey = [ReactNativeConfig envFor:@"GOOGLE_API_KEY"];
   NSURL *jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
-  [GMSServices provideAPIKey:@"AIzaSyC6sjgjUUfbqtBFWkUThfiLcq9Cl6wxj9s"];
+  [GMSServices provideAPIKey:googleKey];
   [ReactNativeNavigation bootstrap:jsCodeLocation launchOptions:launchOptions];
   
   return YES;

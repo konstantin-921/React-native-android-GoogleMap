@@ -48,6 +48,7 @@
 		743217DFD7DA41D1BF9C53DD /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3574E1F338A478EA9FEF4D3 /* Entypo.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		8A436608CF1D426E988C6B44 /* libAirMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 310E79BAE94C407C9CEC55E0 /* libAirMaps.a */; };
+		8B95E0F7229EA10C00C5357E /* libReactNativeConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B95E0F0229EA0C300C5357E /* libReactNativeConfig.a */; };
 		8BC1C5EF2265ECB0009555F9 /* libReactNativeNavigation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC1C5EC2265EC75009555F9 /* libReactNativeNavigation.a */; };
 		8BF35A2C229D511A0056603A /* AIRDummyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF359D4229D51190056603A /* AIRDummyView.m */; };
 		8BF35A2D229D511A0056603A /* AIRGoogleMapUrlTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF359D6229D51190056603A /* AIRGoogleMapUrlTile.m */; };
@@ -327,6 +328,20 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
+		8B95E0EF229EA0C300C5357E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B95E0C4229EA0C200C5357E /* ReactNativeConfig.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB2648DF1C7BE17A00B8F155;
+			remoteInfo = ReactNativeConfig;
+		};
+		8B95E0F1229EA0C300C5357E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B95E0C4229EA0C200C5357E /* ReactNativeConfig.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3DF7F6AC203AA09B00D0EAB7;
+			remoteInfo = "ReactNativeConfig-tvOS";
+		};
 		8BC1C5E12265EC75009555F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
@@ -445,6 +460,7 @@
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		84402B7C226B82935956E4B4 /* Pods-Lightdrop-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lightdrop-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Lightdrop-tvOSTests/Pods-Lightdrop-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		89901D2F3EC242C87C2CC005 /* Pods_LightdropTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LightdropTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B95E0C4229EA0C200C5357E /* ReactNativeConfig.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeConfig.xcodeproj; path = "../node_modules/react-native-config/ios/ReactNativeConfig.xcodeproj"; sourceTree = "<group>"; };
 		8BC1C5B92265EC75009555F9 /* ReactNativeNavigation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeNavigation.xcodeproj; path = "../node_modules/react-native-navigation/lib/ios/ReactNativeNavigation.xcodeproj"; sourceTree = "<group>"; };
 		8BF359D4229D51190056603A /* AIRDummyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRDummyView.m; sourceTree = "<group>"; };
 		8BF359D5229D51190056603A /* AIRGoogleMapPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRGoogleMapPolyline.h; sourceTree = "<group>"; };
@@ -523,6 +539,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B95E0F7229EA10C00C5357E /* libReactNativeConfig.a in Frameworks */,
 				8BC1C5EF2265ECB0009555F9 /* libReactNativeNavigation.a in Frameworks */,
 				ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
@@ -739,6 +756,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				8B95E0C4229EA0C200C5357E /* ReactNativeConfig.xcodeproj */,
 				8BC1C5B92265EC75009555F9 /* ReactNativeNavigation.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
@@ -792,6 +810,15 @@
 				00E356EE1AD99517003FC87E /* LightdropTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* Lightdrop-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* Lightdrop-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B95E0C5229EA0C200C5357E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B95E0F0229EA0C300C5357E /* libReactNativeConfig.a */,
+				8B95E0F2229EA0C300C5357E /* libReactNativeConfig-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1091,6 +1118,10 @@
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
 				{
+					ProductGroup = 8B95E0C5229EA0C200C5357E /* Products */;
+					ProjectRef = 8B95E0C4229EA0C200C5357E /* ReactNativeConfig.xcodeproj */;
+				},
+				{
 					ProductGroup = 8BC1C5BA2265EC75009555F9 /* Products */;
 					ProjectRef = 8BC1C5B92265EC75009555F9 /* ReactNativeNavigation.xcodeproj */;
 				},
@@ -1332,6 +1363,20 @@
 			fileType = archive.ar;
 			path = libRCTText.a;
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8B95E0F0229EA0C300C5357E /* libReactNativeConfig.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReactNativeConfig.a;
+			remoteRef = 8B95E0EF229EA0C300C5357E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8B95E0F2229EA0C300C5357E /* libReactNativeConfig-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libReactNativeConfig-tvOS.a";
+			remoteRef = 8B95E0F1229EA0C300C5357E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		8BC1C5E22265EC75009555F9 /* libjsi.a */ = {
@@ -1762,6 +1807,9 @@
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 				);
 				INFOPLIST_FILE = Lightdrop/Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				INFOPLIST_PREFIX_HEADER = "";
+				INFOPLIST_PREPROCESS = NO;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1792,6 +1840,9 @@
 					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 				);
 				INFOPLIST_FILE = Lightdrop/Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				INFOPLIST_PREFIX_HEADER = "";
+				INFOPLIST_PREPROCESS = NO;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -2000,6 +2051,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-config/ios/**";
+				INFOPLIST_FILE = Lightdrop/Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional\n-traditional\n";
+				INFOPLIST_PREFIX_HEADER = "${BUILD_DIR}/GeneratedInfoPlistDotEnv.h";
+				INFOPLIST_PREPROCESS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -2046,6 +2102,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native-config/ios/**";
+				INFOPLIST_FILE = Lightdrop/Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional\n-traditional\n";
+				INFOPLIST_PREFIX_HEADER = "${BUILD_DIR}/GeneratedInfoPlistDotEnv.h";
+				INFOPLIST_PREPROCESS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
