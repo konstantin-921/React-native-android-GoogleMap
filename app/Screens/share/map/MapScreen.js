@@ -9,7 +9,7 @@ import {
   incrementCounter,
   decrementCounter,
   clearCounter,
-} from '../../../modules/actions/actions'
+} from '../../../modules/actions/mapScreen'
 import FetchLocation from './FetchLocation'
 import UsersMap from './UsersMaps'
 
@@ -26,6 +26,9 @@ class MapScreen extends React.Component {
   }
 
   getUserPlacesHandler = () => {
+    console.log('====================================');
+    console.log(this.props);
+    console.log('====================================');
     const { userLocation } = this.state;
     if(userLocation) {
       this.setState({

@@ -1,10 +1,10 @@
-import * as types from '../constants/constants'
+import * as types from '../constants/mapScreen'
 
 export const initialState = {
   value: 0,
 }
 
-const mainReducer = (state = initialState, action) => {
+const mapScreenReducer = (state = initialState, action) => {
   const { type } = action
 
   switch (type) {
@@ -25,4 +25,4 @@ const mainReducer = (state = initialState, action) => {
   }
 }
 
-export default mainReducer
+export default mapScreenReducer

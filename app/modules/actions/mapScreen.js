@@ -1,4 +1,4 @@
-import * as types from '../constants/constants'
+import * as types from '../constants/mapScreen'
 
 export const incrementCounter = () => ({ type: types.INCREMENT_COUNTER })
 
