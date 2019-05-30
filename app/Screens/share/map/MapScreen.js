@@ -3,13 +3,9 @@ import { View, Text, StyleSheet } from "react-native"
 import { Button } from 'react-native-elements'
 import { compose } from 'redux'
 import { connect } from 'react-redux'
+import { mapOperations } from '../../../ducks/map'
 import withRedux from '../../../hocs/withRedux'
-import haversine from 'haversine';
-import {
-  incrementCounter,
-  decrementCounter,
-  clearCounter,
-} from '../../../modules/actions/mapScreen'
+import haversine from 'haversine'
 import FetchLocation from './FetchLocation'
 import UsersMap from './UsersMaps'
 
@@ -26,9 +22,7 @@ class MapScreen extends React.Component {
   }
 
   getUserPlacesHandler = () => {
-    console.log('====================================');
-    console.log(this.props);
-    console.log('====================================');
+    this.props.dispatchIncrementCounter()
     const { userLocation } = this.state;
     if(userLocation) {
       this.setState({
@@ -108,13 +102,13 @@ class MapScreen extends React.Component {
 }
 
 const mapStateToProps = (state) => ({
-  value: state.mainReducer.value,
+  value: state.map.value,
 })
 
 const mapDispatchToProps = {
-  dispatchIncrementCounter: incrementCounter,
-  dispatchDecrementCounter: decrementCounter,
-  dispatchClearCounter: clearCounter,
+  dispatchIncrementCounter: mapOperations.incrementCounter,
+  dispatchDecrementCounter: mapOperations.decrementCounter,
+  dispatchClearCounter: mapOperations.clearCounter,
 }
 
 const EnhancedMapScreen = compose(

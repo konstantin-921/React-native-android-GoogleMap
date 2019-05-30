@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, StyleSheet, Text, Linking } from 'react-native'
 import MapView, { PROVIDER_GOOGLE } from 'react-native-maps'
-import getCurrentPosition from '../../../lib/getCurrentPosition'
+import { getCurrentPosition } from '../../../utils'
 
 const initialRegion = getCurrentPosition()
 

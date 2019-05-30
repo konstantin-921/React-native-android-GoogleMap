@@ -1,8 +1,8 @@
-import { combineReducers } from 'redux'
-import mapScreenReducer from './modules/reducers/mapScreen'
+// import { combineReducers } from 'redux'
+// import mapScreenReducer from './modules/reducers/mapScreen'
 
-const rootReducer = combineReducers({
-  mapScreenReducer,
-})
+// const rootReducer = combineReducers({
+//   mapScreenReducer,
+// })
 
-export default rootReducer
+// export default rootReducer
