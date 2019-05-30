@@ -1,12 +1,19 @@
-import React from "react"
+import React, { ComponentType, FunctionComponent } from "react"
 import { View, Text, StyleSheet } from "react-native"
 import { Button } from 'react-native-elements'
+import { compose } from 'redux'
+import { connect } from 'react-redux'
+import withRedux from '../../../hocs/withRedux'
 import haversine from 'haversine';
-
+import {
+  incrementCounter,
+  decrementCounter,
+  clearCounter,
+} from '../../../modules/actions/actions'
 import FetchLocation from './FetchLocation'
 import UsersMap from './UsersMaps'
 
-class MapScreen extends React.PureComponent {
+class MapScreen extends React.Component {
 
   state = {
     userLocation: null,
@@ -81,7 +88,6 @@ class MapScreen extends React.PureComponent {
     return lastArray;
   }
 
-
   render() {
     const location = this.getLocation();
     const arrayWithDistance = this.calculateDistance();
@@ -98,6 +104,21 @@ class MapScreen extends React.PureComponent {
   }
 }
 
+const mapStateToProps = (state) => ({
+  value: state.mainReducer.value,
+})
+
+const mapDispatchToProps = {
+  dispatchIncrementCounter: incrementCounter,
+  dispatchDecrementCounter: decrementCounter,
+  dispatchClearCounter: clearCounter,
+}
+
+const EnhancedMapScreen = compose(
+  withRedux,
+  connect(mapStateToProps, mapDispatchToProps),
+)(MapScreen)
+
 const styles = StyleSheet.create({
     container: {
       flex: 1,
@@ -107,4 +128,4 @@ const styles = StyleSheet.create({
     },
   })
 
-export default MapScreen;
+export default EnhancedMapScreen;

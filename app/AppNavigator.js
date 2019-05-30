@@ -11,11 +11,11 @@ import {Platform, StyleSheet, Text, View} from 'react-native';
 import { Navigation } from 'react-native-navigation'
 import LandingScreen from './screens/Landing'
 import SignInScreen from './screens/auth/SignIn'
-import MapScreen from './screens/share/map/MapScreen'
+import EnhancedMapScreen from './screens/share/map/MapScreen'
 
 Navigation.registerComponent(`LandingScreen`, () => LandingScreen)
 Navigation.registerComponent(`SignInScreen`, () => SignInScreen)
-Navigation.registerComponent(`MapScreen`, () => MapScreen)
+Navigation.registerComponent(`MapScreen`, () => EnhancedMapScreen)
 
 const AppNavigator = Navigation.events().registerAppLaunchedListener(() => {
   Navigation.setRoot({
