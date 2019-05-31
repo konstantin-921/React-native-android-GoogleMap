@@ -2,26 +2,37 @@ import * as types from "./types"
 import { createReducer } from "../../utils"
 
 const initialState = {
-  value: 5
+  userPlaces: [],
+  userLocation: null,
+  isSelfLocation: true
 };
 
 const mapReducer = createReducer( initialState )( {
-  [ types.RESET_COUNTER ]: ( state, action ) => {
-    return { 
-      ...state,
-       value: 0
-    }
-  },
-  [ types.DECREMENT_COUNTER ]: ( state, action ) => {
-    return { 
-      ...state,
-      value: state.value - 1
-    }
-  },
-  [ types.INCREMENT_COUNTER ]: ( state, action ) => {
+  [ types.ADD_POINT ]: ( state, action ) => {
+    const { point } = action.payload
     return {
       ...state,
-      value: state.value + 1
+      userPlaces: [ ...state.userPlaces, point]
+    }
+  },
+  [ types.DEFINE_LOCATION ]: ( state, action ) => {
+    const { location } = action.payload
+    return {
+      ...state,
+      userLocation: location
+    }
+  },
+  [ types.SET_SELF_LOCATION ]: ( state, action ) => {
+    const { flag } = action.payload
+    return {
+      ...state,
+      isSelfLocation: flag
+    }
+  },
+  [ types.RESET_POINTS ]: ( state, action ) => {
+    return {
+      ...state,
+      userPlaces: []
     }
   },
 } );

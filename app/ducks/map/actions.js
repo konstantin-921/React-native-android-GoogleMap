@@ -1,5 +1,23 @@
 import * as types from './types'
 
-export const incrementCounter = () => ({ type: types.INCREMENT_COUNTER })
-export const decrementCounter = () => ({ type: types.DECREMENT_COUNTER })
-export const clearCounter = () => ({ type: types.RESET_COUNTER })
+export const addPoint = (point) => ({
+  type: types.ADD_POINT,
+  payload: {
+    point
+  }
+})
+export const defineLocation = (location) => ({
+  type: types.DEFINE_LOCATION,
+  payload: {
+    location
+  }
+})
+export const setSelfLocation = (flag) => ({
+  type: types.SET_SELF_LOCATION,
+  payload: {
+    flag
+  }
+})
+export const resetPoints = () => ({
+  type: types.RESET_POINTS
+})

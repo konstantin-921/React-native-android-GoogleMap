@@ -12,6 +12,7 @@ class LandingScreen extends React.PureComponent {
       }
     })
   }
+  
 
   render() {
     return (

@@ -1,7 +1,8 @@
-import { incrementCounter, decrementCounter, clearCounter } from "./actions";
+import { addPoint, defineLocation, setSelfLocation, resetPoints } from "./actions";
 
 export {
-  incrementCounter,
-  decrementCounter,
-  clearCounter
+  addPoint,
+  defineLocation,
+  setSelfLocation,
+  resetPoints,
 }
